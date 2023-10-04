@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+}
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(30, 107, 132);
+    color: white;
+    padding: 0 11px;
+}
+ header a {
+    color: white;
+ }
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+main {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 0 11px;
+}
+
+ h1, h2, figcaption, footer {
+    text-align: center;
+ }
+
+ p {
+    text-align: justify;
+ }
+
+li {
+padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+figure {
+    margin: 0;
+}
+
+
+img {
+    width: 100%;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+label{
+    display: none;
+}
+
+footer {
+    padding:  30px 0;
+}
+
+input,textarea {
+    margin-bottom: 10px;
+}
+
+footer, footer a { 
+    color: grey;
+}
+
+footer nav ul {
+    justify-content: space-evenly;
+}
+
+footer nav ul li {
+padding: 0;}
